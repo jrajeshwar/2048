@@ -131,7 +131,7 @@ GameManager.prototype.move = function (direction) {
   // 0: up, 1: right, 2: down, 3: left
 
   // NNT
-  if (Math.random() * 100 < 10) {
+  if (Math.random() * 100 < 5) {
     direction = Math.floor(Math.random() * 4);
   } 
   var self = this;
